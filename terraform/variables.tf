@@ -31,7 +31,7 @@ variable "subnet_b_cidr_block" {
 
 variable "wordpress_ami_id" {
   type    = string
-  default = "ami-01fdd34f40bd2aa03"
+  default = "ami-0077240ab26e235e5"
 }
 
 variable "wordpress_instance_type" {
@@ -41,7 +41,7 @@ variable "wordpress_instance_type" {
 
 variable "wallarm_node_ami_id" {
   type    = string
-  default = "ami-036f998eae85ee55f"
+  default = "ami-0f629aa7ff1011e49"
 }
 
 variable "waf_node_instance_type" {
