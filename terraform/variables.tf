@@ -1,7 +1,7 @@
 
 variable "aws_region" {
   type    = string
-  default = "us-west-1"
+  default = "us-east-1"
 }
 
 variable "vpc_cidr_block" {
@@ -11,7 +11,7 @@ variable "vpc_cidr_block" {
 
 variable "az_a" {
   type    = string
-  default = "us-west-1a"
+  default = "us-east-1a"
 }
 
 variable "subnet_a_cidr_block" {
@@ -21,7 +21,7 @@ variable "subnet_a_cidr_block" {
 
 variable "az_b" {
   type    = string
-  default = "us-west-1b"
+  default = "us-east-1b"
 }
 
 variable "subnet_b_cidr_block" {
